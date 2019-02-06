@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+	font-family: Roboto;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+.mt{
+	margin-top: 65px;
+}
+.calender h1{
+	font-size:22px;
+	color: #566377;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.calender p{
+	font-size:16px;
+	color: #566377;
+}
+.newage{
+	background-color: #566377;
+	margin: 20px 0;
+	padding: 10px 8px;
+	color: white;
+}
+.br	{
+	border: 1px solid #d5d8dd;
+}
+.pl{
+	padding-left: 0px;
+	padding-right:10px; 
+}
+.ticket{
+	padding: 14px 12px ;
+}
+.tic, .bag , .blue , .green{
+	margin-left: 10px;
+}
+.tic h2{
+	color: #9b3d97;
+	font-size: 18px;
+	margin-top: 9px;
+}
+.pr{
+	padding-left: 10px;
+	padding-right:0px; 
+}
+.hand-bag{
+	padding: 9px 12px 4px;
+}
+.bag h2{
+	color: #2c5871;
+	font-size: 18px;
+	margin-top: 9px;
+}
+.mt-20{
+	margin-top: 20px;
+	}
+.blue h2{
+	color: #0f4e9f;
+	font-size: 18px;
+	margin-top: 9px;
+}
+.green h2{
+	color: #2095a4;
+	font-size: 18px;
+	margin-top: 9px;
+}
+.dollar , .dollar-2 , .blue-pound , .red-pound{
+	padding: 25px 22px 20px; 
+}
+.green-dollar h2{
+	color: #566737;
+	font-size:19px;
+	margin-left: 20px;
+}
+.blue-dollar h2{
+	color: #2aa4dc;
+	font-size:19px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.new-dollar h2{
+	color: #19aaab;
+	font-size:19px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.blue-sels h2{
+	color: #0f4e9f;
+	font-size:19px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.red-sels h2{
+	color: #cb1540;
+	font-size:19px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.red-sels p{
+    color: #57575a;
+    font-size: 17px;
+    margin:9px 0px 15px 30px;
+}
+.blue-sels p{
+    color: #57575a;
+    font-size: 17px;
+    margin:9px 0px 15px 30px;
+
+}
+footer{
+	background-color: #566377;
+	padding: 20px 0px;
+	color: white;
+	margin-top: 40px;
+	text-align: center;
+}
+@media only screen and (max-width:767px){
+	#logo img,.calender{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.pl,.pr{
+		padding: 0;
+	}
+	.mt-20-mobile{
+		margin-top: 20px;
+	}
+}
